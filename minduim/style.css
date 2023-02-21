@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cbc {
+    background-color: black;
+
+}
+
+.cbc-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.phone {
+
+}
