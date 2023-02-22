@@ -1,4 +1,48 @@
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+.upper-header {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+    color: white;
+
+    padding: 0 30px;
+}
+
+.left-upper-header {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.left-upper-header div {
+    display: flex;
+}
+
+.right-upper-header {
+    display: flex;
+    gap: 10px;
+}
+
+.lower-header {
+    height: 80px;
+    border: solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.lower-header nav{
+    display: flex;
+    gap: 50px;
 }
