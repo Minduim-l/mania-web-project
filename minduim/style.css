@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Bebas+Neue&family=Gajraj+One&family=Josefin+Sans:wght@500&family=Jua&family=Phudu:wght@300;400&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -5,17 +6,110 @@
 }
 
 .cbc {
+    color: white;
     background-color: black;
-
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+height: 40px;
+padding: 0 30px;
+font-family: 'Phudu', cursive;
 }
 
 .cbc-left {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.cbc-left div {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.cbc-right {
+    display: flex;
+    gap: 10px;
+}
+
+.cbc-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    font-family: 'Phudu', cursive;
 
 }
 
-.phone {
+.cbc-2 img {
+    height: 40px;
+    padding: 20px;
+}
 
+.cbc-2 nav {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+nav a {
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 40px - 80px );
+    background-size: cover;
+}
+
+.content-parent {
+    background-color: rgba(207, 74, 74, 0.8);
+    width: 700px;
+    height: 490px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-family: 'Phudu', cursive;
+}
+
+.background{
+    background-image: url(images/Knodel-Desk-Mat.webp);
+    width: 100vw;    
+    height: calc(100vh - 40px - 80px );
+    background-size: cover;
+
+    position: absolute;
+    top: 120px;
+    z-index: -1;
+    transform: scaleX(-1);
+
+}
+
+.txt-button h1 span {
+color: white;
+}
+
+.txt-button h1 {
+    font-size: 40px;
+}
+
+.txt-button h3 {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.txt-button button {
+    font-family: 'Phudu', cursive;
+    height: 30px;
+    width: 200px;
+    color:white;
+    background-color: black;
+    margin-top: 30px;
+    }
+
+.txt-button button:hover {
+    border: solid 1px white;
 }
